@@ -54,7 +54,7 @@ class AboutUs extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
-                  'We are a Team of 4 prefinal year student at IIIT Vadodara persuing Bachelours in Technology.\nWe have developed the application Coddr because we felt that the journey of excelling DSA is not very motivating and in order to motivates the folks fursuing DSA by awarding then some incentives on the bases of thier excellence in the DSA.\nIn our platform students can competite with other students both in personlised as well as public contests. ',
+                  'We are a Team of 4 prefinal year student at IIIT Vadodara persuing Bachelours in Technology.\nWe have developed the application Coddr because we felt that the journey of excelling DSA is not very motivating and in order to motivates the folks fursuing DSA by awarding then some incentives on the bases of thier excellence in the DSA.\nIn our platform students can compete with other students both in personlised as well as public contests. ',
                   style: Theme.of(context).textTheme.bodyText2),
             ),
             Container(
@@ -78,6 +78,19 @@ class AboutUs extends StatelessWidget {
                     fName: 'Kshittiz',
                     lName: 'Bhardwaj',
                     image: Images.kshittizImage),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                TeamCard(
+                    fName: 'Abhishek',
+                    lName: 'Sahu',
+                    image: Images.abhishekImage),
+                TeamCard(
+                    fName: 'Sahil',
+                    lName: 'Potdukhe',
+                    image: Images.sahilImage),
               ],
             ),
           ],
